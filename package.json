@@ -1,0 +1,14 @@
+{
+  "name": "autofi-node-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fast-csv": "^2.4.1",
+    "multer": "^1.3.0"
+  },
+  "scripts": {
+    "start": "node ./app.js",
+    "stop": "lsof -ti :9000 | xargs kill"
+  }
+}
